@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply for Job - Global Student</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Global Student</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="jobs.html">Jobs</a>
+            <a href="company_profiles.html">Company Profiles</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="contact_us.html">Contact Us</a>
+            <a href="registration_login.html">Login/Register</a>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h2>Apply for Job</h2>
+        <form action="https:StudentJobs.great-site.net/submit_application.php" method="POST">
+            <label for="job_id">Job ID:</label>
+            <input type="text" id="job_id" name="job_id" required readonly value="[Job ID]">
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="resume">Resume:</label>
+            <input type="file" id="resume" name="resume" required>
+            
+            <input type="submit" value="Apply Now">
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Global Student. All rights reserved.</p>
+    </footer>
+</body>
+</html>
